@@ -1,0 +1,70 @@
+.Name {
+    text-align: center;
+}
+
+.Welcome {
+    text-align: center;
+}
+.cat{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.left,.right {
+    border-style: solid;
+    border-color: darkred;
+    overflow: auto;
+
+    
+  }
+
+
+
+}
+
+
+/* .left,.right {
+    border-style: solid;
+    border-color: darkred;
+
+    padding: 0;
+    margin: 0;
+    list-style: none
+
+    display:inline-block;
+    position: relative;
+    margin: 5px;
+    float:left;
+    width: calc(25% - 10px);
+    height:400px;
+    background-color: lightgrey;
+}
+
+}
+*/
+/*.right {
+    border-style: solid;
+    border-color:darkred;
+
+}
+*/
+
+h3 {
+    text-align: center;  
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+
+.box
+{
+width:250px;
+height:300px;
+border: 1px solid grey;
+margin-left:50px;
+}
+
