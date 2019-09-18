@@ -12,6 +12,15 @@
   width: 50%;
 }
 
+.left {
+    display: flex;
+    text-align: center;
+    width:800px;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+/*
 .left,.right {
     border-style: solid;
     border-color: darkred;
@@ -19,10 +28,9 @@
 
     
   }
+*/
 
 
-
-}
 
 
 /* .left,.right {
@@ -42,7 +50,6 @@
     background-color: lightgrey;
 }
 
-}
 */
 /*.right {
     border-style: solid;
