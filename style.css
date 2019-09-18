@@ -17,13 +17,19 @@
     border-style: solid;
     border-color: darkred;
     display: inline-block;
-    position: relative;
-    
-   /* width: auto; */
+    width: 600px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-block: 5%;
+   /* display: inline-block;
+   position: relative;
+    width: auto; 
     align-items: baseline;
     justify-content: center;
-  
-    
+  */
+  justify-content: center;
+  align-self: center;
+  align-content: center;
 }
 
 .right {
@@ -31,17 +37,27 @@
     border-color: darkred;
     overflow: auto;
     display: inline-block;
-    position: relative;
-    /* height: 45%; */
+    width: 600px;
+   /* display: inline-block;
+     position: relative;
+     height: 45%; 
     align-items: baseline;
+    justify-content: center;*/
+    
     justify-content: center;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+    margin-block: 10%;
+    
+    
 }
+
 /*
 .left,.right {
     border-style: solid;
     border-color: darkred;
     overflow: auto;
-
     display: inline-block;
 
     
@@ -87,9 +103,16 @@ h4 {
 
 .box
 {
-width:250px;
+/* width:250px;
 height:300px;
 border: 1px solid grey;
-margin-left:50px;
+ margin-left:50px; */
+ width:auto;
+ height:auto;
+ border:1px solid grey;
+ justify-self: space-between;
+ margin-left: 60px;
+ margin-right: 60px;
+ 
 }
 
