@@ -12,19 +12,37 @@
   width: 50%;
 }
 
+
 .left {
-    display: flex;
-    text-align: center;
-    width:800px;
+    border-style: solid;
+    border-color: darkred;
+    display: inline-block;
+    position: relative;
+    
+   /* width: auto; */
+    align-items: baseline;
     justify-content: center;
-    color: white;
-    flex-direction: column;
+  
+    
+}
+
+.right {
+    border-style: solid;
+    border-color: darkred;
+    overflow: auto;
+    display: inline-block;
+    position: relative;
+    /* height: 45%; */
+    align-items: baseline;
+    justify-content: center;
 }
 /*
 .left,.right {
     border-style: solid;
     border-color: darkred;
     overflow: auto;
+
+    display: inline-block;
 
     
   }
